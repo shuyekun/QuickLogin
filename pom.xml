@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>tools</groupId>
     <artifactId>QuickLogin</artifactId>
-    <version>1.9</version>
+    <version>V1.9</version>
     <packaging>jar</packaging>
     <name>Quicklogin</name>
     <properties>
