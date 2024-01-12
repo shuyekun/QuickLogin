@@ -1,0 +1,32 @@
+name: QuickLogin
+version: '1.9'
+main: tools.quicklogin.QuickLogin
+api-version: "1.16"
+authors: [ shuye_kun ]
+description: 轻量化的登录插件 for spigot
+commands:
+  login:
+    description: login to server
+    aliases: [l]
+  register:
+    description: register to server
+    aliases: [reg]
+  exchangepassword:
+    description: change your password
+    aliases: [excp]
+  opexchange:
+    description: op change people's password
+    aliases: [opex]
+    permission: quicklogin.exchange
+    permission-message: You have no permission to do that
+  ql:
+    description: config commands
+    permission: quicklogin.ql
+    permission-message: You have no permission to do that
+
+
+permissions:
+  quicklogin.exchange:
+    default: op
+  quicklogin.ql:
+    default: op

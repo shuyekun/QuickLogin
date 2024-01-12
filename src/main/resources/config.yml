@@ -1,0 +1,25 @@
+#玩家登录播放的声音
+#默认为放置铁砧的声音
+sound: block.anvil.place
+
+#玩家登录播放的声音的大小
+volume: 0.5
+
+#玩家登录的提示
+# %player%处会替换玩家名 &c等为颜色代码 \n可以换行
+joinMessage: "玩家 &c&l%player%&r登录啦\n让我们欢迎他~"
+leaveMessage: "玩家 &c&l%player%&r暂时离开了~"
+
+#玩家登录的时间，超过改时间将被踢出，单位为秒
+#0为没有登录时间限制
+kickTime: 0
+
+#是否在player子命令中展示玩家头颅皮肤,true打开(第一次打开时会卡顿)
+skull: false
+
+#玩家退出服务器后重连自动登录的时间(秒)
+auto: 0
+
+#输入密码错误超过该次数就会被踢出(默认为5)
+#意思是第6次输入错误就会被踢出
+passwordEnterTimes: 5
